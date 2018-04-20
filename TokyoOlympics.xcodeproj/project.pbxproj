@@ -7,47 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8ED6AFD3208233AA00F41A1F /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6AFD2208233AA00F41A1F /* BaseDAO.swift */; };
-		8ED6AFD52082390B00F41A1F /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6AFD42082390B00F41A1F /* DBHelper.swift */; };
-		8ED6AFD720823BB200F41A1F /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6AFD620823BB200F41A1F /* EventsDAO.swift */; };
-		8EEC7723207E3F4D00D7F351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7722207E3F4D00D7F351 /* AppDelegate.swift */; };
-		8EEC7725207E3F4D00D7F351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7724207E3F4D00D7F351 /* ViewController.swift */; };
-		8EEC7728207E3F4D00D7F351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC7726207E3F4D00D7F351 /* Main.storyboard */; };
-		8EEC772A207E3F4D00D7F351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC7729207E3F4D00D7F351 /* Assets.xcassets */; };
-		8EEC772D207E3F4D00D7F351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC772B207E3F4D00D7F351 /* LaunchScreen.storyboard */; };
-		8EEC7739207E577A00D7F351 /* creat_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC7738207E577A00D7F351 /* creat_load.sql */; };
-		8EEC773B207E578B00D7F351 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EEC773A207E578B00D7F351 /* DBConfig.plist */; };
-		8EEC773D207E57D200D7F351 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEC773C207E57D200D7F351 /* libsqlite3.tbd */; };
-		8EEC7740207E5B2D00D7F351 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC773F207E5B2D00D7F351 /* Events.swift */; };
-		8EEC7743207E5C7600D7F351 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7742207E5C7600D7F351 /* Schedule.swift */; };
+		8EF1AE992088C23F00AFA76F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AE982088C23F00AFA76F /* AppDelegate.swift */; };
+		8EF1AEA02088C23F00AFA76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AE9E2088C23F00AFA76F /* Main.storyboard */; };
+		8EF1AEA52088C23F00AFA76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEA32088C23F00AFA76F /* LaunchScreen.storyboard */; };
+		8EF1AEAF2088C56F00AFA76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEAE2088C56F00AFA76F /* Assets.xcassets */; };
+		8EF1AEB52088CB8200AFA76F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEB42088CB8200AFA76F /* HomeViewController.swift */; };
+		8EF1AEB72088CD3A00AFA76F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEB62088CD3A00AFA76F /* AboutViewController.swift */; };
+		8EF1AEB92088CD8200AFA76F /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEB82088CD8200AFA76F /* EventsViewController.swift */; };
+		8EF1AEBB2088D06700AFA76F /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEBA2088D06700AFA76F /* CountDownViewController.swift */; };
+		8EF1AEBD2088D86E00AFA76F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEBC2088D86E00AFA76F /* ScheduleViewController.swift */; };
+		8EF1AEF02088E83C00AFA76F /* ScheduleDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEE62088E83C00AFA76F /* ScheduleDAO.swift */; };
+		8EF1AEF12088E83C00AFA76F /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEE72088E83C00AFA76F /* EventsDAO.swift */; };
+		8EF1AEF22088E83C00AFA76F /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEE82088E83C00AFA76F /* BaseDAO.swift */; };
+		8EF1AEF32088E83C00AFA76F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEEA2088E83C00AFA76F /* Schedule.swift */; };
+		8EF1AEF42088E83C00AFA76F /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEEB2088E83C00AFA76F /* Events.swift */; };
+		8EF1AEF52088E83C00AFA76F /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEEC2088E83C00AFA76F /* DBHelper.swift */; };
+		8EF1AEF62088E83C00AFA76F /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEEE2088E83C00AFA76F /* create_load.sql */; };
+		8EF1AEF72088E83C00AFA76F /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEEF2088E83C00AFA76F /* DBConfig.plist */; };
+		8EF1AEF92089CE3700AFA76F /* EventsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEF82089CE3700AFA76F /* EventsViewCell.swift */; };
+		8EF1AEFB2089D0AC00AFA76F /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1AEFA2089D0AC00AFA76F /* EventsDetailViewController.swift */; };
+		8EF1AF252089D63500AFA76F /* diving.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEFD2089D62E00AFA76F /* diving.png */; };
+		8EF1AF262089D63500AFA76F /* cycling-bmx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEFE2089D62F00AFA76F /* cycling-bmx.png */; };
+		8EF1AF272089D63500AFA76F /* equestrian-jumping.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AEFF2089D62F00AFA76F /* equestrian-jumping.png */; };
+		8EF1AF282089D63500AFA76F /* synchronised-swimming.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF002089D62F00AFA76F /* synchronised-swimming.png */; };
+		8EF1AF292089D63500AFA76F /* table-tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF012089D62F00AFA76F /* table-tennis.png */; };
+		8EF1AF2A2089D63500AFA76F /* wrestling.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF022089D62F00AFA76F /* wrestling.png */; };
+		8EF1AF2B2089D63500AFA76F /* swimming.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF032089D62F00AFA76F /* swimming.png */; };
+		8EF1AF2C2089D63500AFA76F /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF042089D63000AFA76F /* basketball.png */; };
+		8EF1AF2D2089D63500AFA76F /* cycling-road.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF052089D63000AFA76F /* cycling-road.png */; };
+		8EF1AF2E2089D63500AFA76F /* judo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF062089D63000AFA76F /* judo.png */; };
+		8EF1AF2F2089D63500AFA76F /* rowing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF072089D63000AFA76F /* rowing.png */; };
+		8EF1AF302089D63500AFA76F /* sailing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF082089D63000AFA76F /* sailing.png */; };
+		8EF1AF312089D63500AFA76F /* triathlon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF092089D63000AFA76F /* triathlon.png */; };
+		8EF1AF322089D63500AFA76F /* hockey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0A2089D63100AFA76F /* hockey.png */; };
+		8EF1AF332089D63500AFA76F /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0B2089D63100AFA76F /* volleyball.png */; };
+		8EF1AF342089D63500AFA76F /* athletics.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0C2089D63100AFA76F /* athletics.png */; };
+		8EF1AF352089D63500AFA76F /* canoe-sprint.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0D2089D63100AFA76F /* canoe-sprint.png */; };
+		8EF1AF362089D63500AFA76F /* equestrian-dressage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0E2089D63100AFA76F /* equestrian-dressage.png */; };
+		8EF1AF372089D63500AFA76F /* cycling-mountain-bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF0F2089D63100AFA76F /* cycling-mountain-bike.png */; };
+		8EF1AF382089D63500AFA76F /* gymnastics-artistic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF102089D63200AFA76F /* gymnastics-artistic.png */; };
+		8EF1AF392089D63500AFA76F /* equestrian-eventing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF112089D63200AFA76F /* equestrian-eventing.png */; };
+		8EF1AF3A2089D63500AFA76F /* fencing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF122089D63200AFA76F /* fencing.png */; };
+		8EF1AF3B2089D63500AFA76F /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF132089D63200AFA76F /* football.png */; };
+		8EF1AF3C2089D63500AFA76F /* handball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF142089D63200AFA76F /* handball.png */; };
+		8EF1AF3D2089D63500AFA76F /* shooting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF152089D63200AFA76F /* shooting.png */; };
+		8EF1AF3E2089D63500AFA76F /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF162089D63300AFA76F /* tennis.png */; };
+		8EF1AF3F2089D63500AFA76F /* badminton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF172089D63300AFA76F /* badminton.png */; };
+		8EF1AF402089D63500AFA76F /* taekwondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF182089D63300AFA76F /* taekwondo.png */; };
+		8EF1AF412089D63500AFA76F /* water-polo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF192089D63300AFA76F /* water-polo.png */; };
+		8EF1AF422089D63500AFA76F /* gymnastics-trampoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1A2089D63300AFA76F /* gymnastics-trampoline.png */; };
+		8EF1AF432089D63500AFA76F /* cycling-track.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1B2089D63300AFA76F /* cycling-track.png */; };
+		8EF1AF442089D63500AFA76F /* weightlifting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1C2089D63300AFA76F /* weightlifting.png */; };
+		8EF1AF452089D63500AFA76F /* modern-pentathlon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1D2089D63400AFA76F /* modern-pentathlon.png */; };
+		8EF1AF462089D63500AFA76F /* boxing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1E2089D63400AFA76F /* boxing.png */; };
+		8EF1AF472089D63500AFA76F /* gymnastics-rhythmic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF1F2089D63400AFA76F /* gymnastics-rhythmic.png */; };
+		8EF1AF482089D63500AFA76F /* beach-volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF202089D63400AFA76F /* beach-volleyball.png */; };
+		8EF1AF492089D63500AFA76F /* canoe-slalom.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF212089D63400AFA76F /* canoe-slalom.png */; };
+		8EF1AF4A2089D63500AFA76F /* archery.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF222089D63400AFA76F /* archery.png */; };
+		8EF1AF4B2089D63500AFA76F /* golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF232089D63500AFA76F /* golf.png */; };
+		8EF1AF4C2089D63500AFA76F /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1AF242089D63500AFA76F /* rugby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8ED6AFD2208233AA00F41A1F /* BaseDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDAO.swift; sourceTree = "<group>"; };
-		8ED6AFD42082390B00F41A1F /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
-		8ED6AFD620823BB200F41A1F /* EventsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDAO.swift; sourceTree = "<group>"; };
-		8EEC771F207E3F4D00D7F351 /* TokyoOlympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokyoOlympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EEC7722207E3F4D00D7F351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EEC7724207E3F4D00D7F351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EEC7727207E3F4D00D7F351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EEC7729207E3F4D00D7F351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EEC772C207E3F4D00D7F351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EEC772E207E3F4D00D7F351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EEC7735207E471D00D7F351 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		8EEC7738207E577A00D7F351 /* creat_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = creat_load.sql; sourceTree = "<group>"; };
-		8EEC773A207E578B00D7F351 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
 		8EEC773C207E57D200D7F351 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		8EEC773E207E59F700D7F351 /* TokyoOlympics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TokyoOlympics-Bridging-Header.h"; sourceTree = "<group>"; };
-		8EEC773F207E5B2D00D7F351 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
-		8EEC7742207E5C7600D7F351 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		8EF1AE962088C23F00AFA76F /* Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF1AE982088C23F00AFA76F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EF1AE9F2088C23F00AFA76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EF1AEA42088C23F00AFA76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EF1AEA62088C23F00AFA76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF1AEAE2088C56F00AFA76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF1AEB42088CB8200AFA76F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8EF1AEB62088CD3A00AFA76F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8EF1AEB82088CD8200AFA76F /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		8EF1AEBA2088D06700AFA76F /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		8EF1AEBC2088D86E00AFA76F /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		8EF1AEE42088E83C00AFA76F /* TokyoOlympics-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TokyoOlympics-Bridging-Header.h"; sourceTree = "<group>"; };
+		8EF1AEE62088E83C00AFA76F /* ScheduleDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDAO.swift; sourceTree = "<group>"; };
+		8EF1AEE72088E83C00AFA76F /* EventsDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDAO.swift; sourceTree = "<group>"; };
+		8EF1AEE82088E83C00AFA76F /* BaseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDAO.swift; sourceTree = "<group>"; };
+		8EF1AEEA2088E83C00AFA76F /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		8EF1AEEB2088E83C00AFA76F /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		8EF1AEEC2088E83C00AFA76F /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		8EF1AEEE2088E83C00AFA76F /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
+		8EF1AEEF2088E83C00AFA76F /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		8EF1AEF82089CE3700AFA76F /* EventsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewCell.swift; sourceTree = "<group>"; };
+		8EF1AEFA2089D0AC00AFA76F /* EventsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
+		8EF1AEFD2089D62E00AFA76F /* diving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diving.png; sourceTree = "<group>"; };
+		8EF1AEFE2089D62F00AFA76F /* cycling-bmx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cycling-bmx.png"; sourceTree = "<group>"; };
+		8EF1AEFF2089D62F00AFA76F /* equestrian-jumping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equestrian-jumping.png"; sourceTree = "<group>"; };
+		8EF1AF002089D62F00AFA76F /* synchronised-swimming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synchronised-swimming.png"; sourceTree = "<group>"; };
+		8EF1AF012089D62F00AFA76F /* table-tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-tennis.png"; sourceTree = "<group>"; };
+		8EF1AF022089D62F00AFA76F /* wrestling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrestling.png; sourceTree = "<group>"; };
+		8EF1AF032089D62F00AFA76F /* swimming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimming.png; sourceTree = "<group>"; };
+		8EF1AF042089D63000AFA76F /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		8EF1AF052089D63000AFA76F /* cycling-road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cycling-road.png"; sourceTree = "<group>"; };
+		8EF1AF062089D63000AFA76F /* judo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = judo.png; sourceTree = "<group>"; };
+		8EF1AF072089D63000AFA76F /* rowing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowing.png; sourceTree = "<group>"; };
+		8EF1AF082089D63000AFA76F /* sailing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sailing.png; sourceTree = "<group>"; };
+		8EF1AF092089D63000AFA76F /* triathlon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triathlon.png; sourceTree = "<group>"; };
+		8EF1AF0A2089D63100AFA76F /* hockey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey.png; sourceTree = "<group>"; };
+		8EF1AF0B2089D63100AFA76F /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
+		8EF1AF0C2089D63100AFA76F /* athletics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = athletics.png; sourceTree = "<group>"; };
+		8EF1AF0D2089D63100AFA76F /* canoe-sprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canoe-sprint.png"; sourceTree = "<group>"; };
+		8EF1AF0E2089D63100AFA76F /* equestrian-dressage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equestrian-dressage.png"; sourceTree = "<group>"; };
+		8EF1AF0F2089D63100AFA76F /* cycling-mountain-bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cycling-mountain-bike.png"; sourceTree = "<group>"; };
+		8EF1AF102089D63200AFA76F /* gymnastics-artistic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gymnastics-artistic.png"; sourceTree = "<group>"; };
+		8EF1AF112089D63200AFA76F /* equestrian-eventing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equestrian-eventing.png"; sourceTree = "<group>"; };
+		8EF1AF122089D63200AFA76F /* fencing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fencing.png; sourceTree = "<group>"; };
+		8EF1AF132089D63200AFA76F /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		8EF1AF142089D63200AFA76F /* handball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handball.png; sourceTree = "<group>"; };
+		8EF1AF152089D63200AFA76F /* shooting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shooting.png; sourceTree = "<group>"; };
+		8EF1AF162089D63300AFA76F /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennis.png; sourceTree = "<group>"; };
+		8EF1AF172089D63300AFA76F /* badminton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badminton.png; sourceTree = "<group>"; };
+		8EF1AF182089D63300AFA76F /* taekwondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taekwondo.png; sourceTree = "<group>"; };
+		8EF1AF192089D63300AFA76F /* water-polo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-polo.png"; sourceTree = "<group>"; };
+		8EF1AF1A2089D63300AFA76F /* gymnastics-trampoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gymnastics-trampoline.png"; sourceTree = "<group>"; };
+		8EF1AF1B2089D63300AFA76F /* cycling-track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cycling-track.png"; sourceTree = "<group>"; };
+		8EF1AF1C2089D63300AFA76F /* weightlifting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightlifting.png; sourceTree = "<group>"; };
+		8EF1AF1D2089D63400AFA76F /* modern-pentathlon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modern-pentathlon.png"; sourceTree = "<group>"; };
+		8EF1AF1E2089D63400AFA76F /* boxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxing.png; sourceTree = "<group>"; };
+		8EF1AF1F2089D63400AFA76F /* gymnastics-rhythmic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gymnastics-rhythmic.png"; sourceTree = "<group>"; };
+		8EF1AF202089D63400AFA76F /* beach-volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beach-volleyball.png"; sourceTree = "<group>"; };
+		8EF1AF212089D63400AFA76F /* canoe-slalom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canoe-slalom.png"; sourceTree = "<group>"; };
+		8EF1AF222089D63400AFA76F /* archery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = archery.png; sourceTree = "<group>"; };
+		8EF1AF232089D63500AFA76F /* golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf.png; sourceTree = "<group>"; };
+		8EF1AF242089D63500AFA76F /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EEC771C207E3F4D00D7F351 /* Frameworks */ = {
+		8EF1AE932088C23F00AFA76F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEC773D207E57D200D7F351 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,12 +149,8 @@
 		8EEC7716207E3F4D00D7F351 = {
 			isa = PBXGroup;
 			children = (
-				8ED6AFD2208233AA00F41A1F /* BaseDAO.swift */,
-				8ED6AFD620823BB200F41A1F /* EventsDAO.swift */,
-				8ED6AFD42082390B00F41A1F /* DBHelper.swift */,
-				8EEC7744207E5DB000D7F351 /* 数据持久化逻辑组件 */,
-				8EEC773E207E59F700D7F351 /* TokyoOlympics-Bridging-Header.h */,
-				8EEC7721207E3F4D00D7F351 /* TokyoOlympics */,
+				8EF1AEE32088E83C00AFA76F /* PersistenceLayer */,
+				8EF1AE972088C23F00AFA76F /* Olympics */,
 				8EEC7720207E3F4D00D7F351 /* Products */,
 				8EEC7734207E471D00D7F351 /* Frameworks */,
 			);
@@ -71,22 +159,9 @@
 		8EEC7720207E3F4D00D7F351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EEC771F207E3F4D00D7F351 /* TokyoOlympics.app */,
+				8EF1AE962088C23F00AFA76F /* Olympics.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8EEC7721207E3F4D00D7F351 /* TokyoOlympics */ = {
-			isa = PBXGroup;
-			children = (
-				8EEC7722207E3F4D00D7F351 /* AppDelegate.swift */,
-				8EEC7724207E3F4D00D7F351 /* ViewController.swift */,
-				8EEC7726207E3F4D00D7F351 /* Main.storyboard */,
-				8EEC7729207E3F4D00D7F351 /* Assets.xcassets */,
-				8EEC772B207E3F4D00D7F351 /* LaunchScreen.storyboard */,
-				8EEC772E207E3F4D00D7F351 /* Info.plist */,
-			);
-			path = TokyoOlympics;
 			sourceTree = "<group>";
 		};
 		8EEC7734207E471D00D7F351 /* Frameworks */ = {
@@ -98,51 +173,131 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8EEC7737207E575200D7F351 /* DBfile */ = {
+		8EF1AE972088C23F00AFA76F /* Olympics */ = {
 			isa = PBXGroup;
 			children = (
-				8EEC773A207E578B00D7F351 /* DBConfig.plist */,
-				8EEC7738207E577A00D7F351 /* creat_load.sql */,
+				8EF1AEFC2089D60D00AFA76F /* events */,
+				8EF1AE982088C23F00AFA76F /* AppDelegate.swift */,
+				8EF1AE9E2088C23F00AFA76F /* Main.storyboard */,
+				8EF1AEBC2088D86E00AFA76F /* ScheduleViewController.swift */,
+				8EF1AEBA2088D06700AFA76F /* CountDownViewController.swift */,
+				8EF1AEA32088C23F00AFA76F /* LaunchScreen.storyboard */,
+				8EF1AEA62088C23F00AFA76F /* Info.plist */,
+				8EF1AEAE2088C56F00AFA76F /* Assets.xcassets */,
+				8EF1AEB42088CB8200AFA76F /* HomeViewController.swift */,
+				8EF1AEB62088CD3A00AFA76F /* AboutViewController.swift */,
+				8EF1AEB82088CD8200AFA76F /* EventsViewController.swift */,
+				8EF1AEFA2089D0AC00AFA76F /* EventsDetailViewController.swift */,
+				8EF1AEF82089CE3700AFA76F /* EventsViewCell.swift */,
 			);
-			name = DBfile;
+			path = Olympics;
 			sourceTree = "<group>";
 		};
-		8EEC7741207E5B3A00D7F351 /* domain */ = {
+		8EF1AEE32088E83C00AFA76F /* PersistenceLayer */ = {
 			isa = PBXGroup;
 			children = (
-				8EEC773F207E5B2D00D7F351 /* Events.swift */,
-				8EEC7742207E5C7600D7F351 /* Schedule.swift */,
+				8EF1AEE42088E83C00AFA76F /* TokyoOlympics-Bridging-Header.h */,
+				8EF1AEE52088E83C00AFA76F /* dao */,
+				8EF1AEE92088E83C00AFA76F /* domain */,
+				8EF1AEEC2088E83C00AFA76F /* DBHelper.swift */,
+				8EF1AEED2088E83C00AFA76F /* DBFile */,
 			);
-			name = domain;
+			path = PersistenceLayer;
 			sourceTree = "<group>";
 		};
-		8EEC7744207E5DB000D7F351 /* 数据持久化逻辑组件 */ = {
+		8EF1AEE52088E83C00AFA76F /* dao */ = {
 			isa = PBXGroup;
 			children = (
-				8EEC7737207E575200D7F351 /* DBfile */,
-				8EEC7741207E5B3A00D7F351 /* domain */,
+				8EF1AEE62088E83C00AFA76F /* ScheduleDAO.swift */,
+				8EF1AEE72088E83C00AFA76F /* EventsDAO.swift */,
+				8EF1AEE82088E83C00AFA76F /* BaseDAO.swift */,
 			);
-			name = "数据持久化逻辑组件";
+			path = dao;
+			sourceTree = "<group>";
+		};
+		8EF1AEE92088E83C00AFA76F /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1AEEA2088E83C00AFA76F /* Schedule.swift */,
+				8EF1AEEB2088E83C00AFA76F /* Events.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		8EF1AEED2088E83C00AFA76F /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1AEEE2088E83C00AFA76F /* create_load.sql */,
+				8EF1AEEF2088E83C00AFA76F /* DBConfig.plist */,
+			);
+			path = DBFile;
+			sourceTree = "<group>";
+		};
+		8EF1AEFC2089D60D00AFA76F /* events */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1AF222089D63400AFA76F /* archery.png */,
+				8EF1AF0C2089D63100AFA76F /* athletics.png */,
+				8EF1AF172089D63300AFA76F /* badminton.png */,
+				8EF1AF042089D63000AFA76F /* basketball.png */,
+				8EF1AF202089D63400AFA76F /* beach-volleyball.png */,
+				8EF1AF1E2089D63400AFA76F /* boxing.png */,
+				8EF1AF212089D63400AFA76F /* canoe-slalom.png */,
+				8EF1AF0D2089D63100AFA76F /* canoe-sprint.png */,
+				8EF1AEFE2089D62F00AFA76F /* cycling-bmx.png */,
+				8EF1AF0F2089D63100AFA76F /* cycling-mountain-bike.png */,
+				8EF1AF052089D63000AFA76F /* cycling-road.png */,
+				8EF1AF1B2089D63300AFA76F /* cycling-track.png */,
+				8EF1AEFD2089D62E00AFA76F /* diving.png */,
+				8EF1AF0E2089D63100AFA76F /* equestrian-dressage.png */,
+				8EF1AF112089D63200AFA76F /* equestrian-eventing.png */,
+				8EF1AEFF2089D62F00AFA76F /* equestrian-jumping.png */,
+				8EF1AF122089D63200AFA76F /* fencing.png */,
+				8EF1AF132089D63200AFA76F /* football.png */,
+				8EF1AF232089D63500AFA76F /* golf.png */,
+				8EF1AF102089D63200AFA76F /* gymnastics-artistic.png */,
+				8EF1AF1F2089D63400AFA76F /* gymnastics-rhythmic.png */,
+				8EF1AF1A2089D63300AFA76F /* gymnastics-trampoline.png */,
+				8EF1AF142089D63200AFA76F /* handball.png */,
+				8EF1AF0A2089D63100AFA76F /* hockey.png */,
+				8EF1AF062089D63000AFA76F /* judo.png */,
+				8EF1AF1D2089D63400AFA76F /* modern-pentathlon.png */,
+				8EF1AF072089D63000AFA76F /* rowing.png */,
+				8EF1AF242089D63500AFA76F /* rugby.png */,
+				8EF1AF082089D63000AFA76F /* sailing.png */,
+				8EF1AF152089D63200AFA76F /* shooting.png */,
+				8EF1AF032089D62F00AFA76F /* swimming.png */,
+				8EF1AF002089D62F00AFA76F /* synchronised-swimming.png */,
+				8EF1AF012089D62F00AFA76F /* table-tennis.png */,
+				8EF1AF182089D63300AFA76F /* taekwondo.png */,
+				8EF1AF162089D63300AFA76F /* tennis.png */,
+				8EF1AF092089D63000AFA76F /* triathlon.png */,
+				8EF1AF0B2089D63100AFA76F /* volleyball.png */,
+				8EF1AF192089D63300AFA76F /* water-polo.png */,
+				8EF1AF1C2089D63300AFA76F /* weightlifting.png */,
+				8EF1AF022089D62F00AFA76F /* wrestling.png */,
+			);
+			path = events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EEC771E207E3F4D00D7F351 /* TokyoOlympics */ = {
+		8EF1AE952088C23F00AFA76F /* Olympics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EEC7731207E3F4D00D7F351 /* Build configuration list for PBXNativeTarget "TokyoOlympics" */;
+			buildConfigurationList = 8EF1AEA72088C23F00AFA76F /* Build configuration list for PBXNativeTarget "Olympics" */;
 			buildPhases = (
-				8EEC771B207E3F4D00D7F351 /* Sources */,
-				8EEC771C207E3F4D00D7F351 /* Frameworks */,
-				8EEC771D207E3F4D00D7F351 /* Resources */,
+				8EF1AE922088C23F00AFA76F /* Sources */,
+				8EF1AE932088C23F00AFA76F /* Frameworks */,
+				8EF1AE942088C23F00AFA76F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TokyoOlympics;
-			productName = TokyoOlympics;
-			productReference = 8EEC771F207E3F4D00D7F351 /* TokyoOlympics.app */;
+			name = Olympics;
+			productName = Olympics;
+			productReference = 8EF1AE962088C23F00AFA76F /* Olympics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,12 +306,12 @@
 		8EEC7717207E3F4D00D7F351 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Xiamen;
 				TargetAttributes = {
-					8EEC771E207E3F4D00D7F351 = {
-						CreatedOnToolsVersion = 8.3.3;
+					8EF1AE952088C23F00AFA76F = {
+						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -174,56 +329,103 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EEC771E207E3F4D00D7F351 /* TokyoOlympics */,
+				8EF1AE952088C23F00AFA76F /* Olympics */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8EEC771D207E3F4D00D7F351 /* Resources */ = {
+		8EF1AE942088C23F00AFA76F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEC773B207E578B00D7F351 /* DBConfig.plist in Resources */,
-				8EEC772D207E3F4D00D7F351 /* LaunchScreen.storyboard in Resources */,
-				8EEC772A207E3F4D00D7F351 /* Assets.xcassets in Resources */,
-				8EEC7739207E577A00D7F351 /* creat_load.sql in Resources */,
-				8EEC7728207E3F4D00D7F351 /* Main.storyboard in Resources */,
+				8EF1AF262089D63500AFA76F /* cycling-bmx.png in Resources */,
+				8EF1AF3E2089D63500AFA76F /* tennis.png in Resources */,
+				8EF1AF272089D63500AFA76F /* equestrian-jumping.png in Resources */,
+				8EF1AF3A2089D63500AFA76F /* fencing.png in Resources */,
+				8EF1AF282089D63500AFA76F /* synchronised-swimming.png in Resources */,
+				8EF1AF362089D63500AFA76F /* equestrian-dressage.png in Resources */,
+				8EF1AF332089D63500AFA76F /* volleyball.png in Resources */,
+				8EF1AF4A2089D63500AFA76F /* archery.png in Resources */,
+				8EF1AF372089D63500AFA76F /* cycling-mountain-bike.png in Resources */,
+				8EF1AF352089D63500AFA76F /* canoe-sprint.png in Resources */,
+				8EF1AF3D2089D63500AFA76F /* shooting.png in Resources */,
+				8EF1AF382089D63500AFA76F /* gymnastics-artistic.png in Resources */,
+				8EF1AF2F2089D63500AFA76F /* rowing.png in Resources */,
+				8EF1AF342089D63500AFA76F /* athletics.png in Resources */,
+				8EF1AEA52088C23F00AFA76F /* LaunchScreen.storyboard in Resources */,
+				8EF1AF312089D63500AFA76F /* triathlon.png in Resources */,
+				8EF1AF392089D63500AFA76F /* equestrian-eventing.png in Resources */,
+				8EF1AF2C2089D63500AFA76F /* basketball.png in Resources */,
+				8EF1AF3C2089D63500AFA76F /* handball.png in Resources */,
+				8EF1AEAF2088C56F00AFA76F /* Assets.xcassets in Resources */,
+				8EF1AF432089D63500AFA76F /* cycling-track.png in Resources */,
+				8EF1AF2A2089D63500AFA76F /* wrestling.png in Resources */,
+				8EF1AF482089D63500AFA76F /* beach-volleyball.png in Resources */,
+				8EF1AF462089D63500AFA76F /* boxing.png in Resources */,
+				8EF1AF2D2089D63500AFA76F /* cycling-road.png in Resources */,
+				8EF1AF402089D63500AFA76F /* taekwondo.png in Resources */,
+				8EF1AF3B2089D63500AFA76F /* football.png in Resources */,
+				8EF1AF472089D63500AFA76F /* gymnastics-rhythmic.png in Resources */,
+				8EF1AF302089D63500AFA76F /* sailing.png in Resources */,
+				8EF1AF492089D63500AFA76F /* canoe-slalom.png in Resources */,
+				8EF1AF4C2089D63500AFA76F /* rugby.png in Resources */,
+				8EF1AF452089D63500AFA76F /* modern-pentathlon.png in Resources */,
+				8EF1AF442089D63500AFA76F /* weightlifting.png in Resources */,
+				8EF1AF2B2089D63500AFA76F /* swimming.png in Resources */,
+				8EF1AEA02088C23F00AFA76F /* Main.storyboard in Resources */,
+				8EF1AF322089D63500AFA76F /* hockey.png in Resources */,
+				8EF1AEF62088E83C00AFA76F /* create_load.sql in Resources */,
+				8EF1AF2E2089D63500AFA76F /* judo.png in Resources */,
+				8EF1AF412089D63500AFA76F /* water-polo.png in Resources */,
+				8EF1AF422089D63500AFA76F /* gymnastics-trampoline.png in Resources */,
+				8EF1AF4B2089D63500AFA76F /* golf.png in Resources */,
+				8EF1AF3F2089D63500AFA76F /* badminton.png in Resources */,
+				8EF1AF292089D63500AFA76F /* table-tennis.png in Resources */,
+				8EF1AF252089D63500AFA76F /* diving.png in Resources */,
+				8EF1AEF72088E83C00AFA76F /* DBConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8EEC771B207E3F4D00D7F351 /* Sources */ = {
+		8EF1AE922088C23F00AFA76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED6AFD720823BB200F41A1F /* EventsDAO.swift in Sources */,
-				8EEC7740207E5B2D00D7F351 /* Events.swift in Sources */,
-				8ED6AFD52082390B00F41A1F /* DBHelper.swift in Sources */,
-				8EEC7725207E3F4D00D7F351 /* ViewController.swift in Sources */,
-				8EEC7743207E5C7600D7F351 /* Schedule.swift in Sources */,
-				8EEC7723207E3F4D00D7F351 /* AppDelegate.swift in Sources */,
-				8ED6AFD3208233AA00F41A1F /* BaseDAO.swift in Sources */,
+				8EF1AEB72088CD3A00AFA76F /* AboutViewController.swift in Sources */,
+				8EF1AEB92088CD8200AFA76F /* EventsViewController.swift in Sources */,
+				8EF1AEF02088E83C00AFA76F /* ScheduleDAO.swift in Sources */,
+				8EF1AEF32088E83C00AFA76F /* Schedule.swift in Sources */,
+				8EF1AEF12088E83C00AFA76F /* EventsDAO.swift in Sources */,
+				8EF1AEBB2088D06700AFA76F /* CountDownViewController.swift in Sources */,
+				8EF1AEBD2088D86E00AFA76F /* ScheduleViewController.swift in Sources */,
+				8EF1AEF52088E83C00AFA76F /* DBHelper.swift in Sources */,
+				8EF1AE992088C23F00AFA76F /* AppDelegate.swift in Sources */,
+				8EF1AEF42088E83C00AFA76F /* Events.swift in Sources */,
+				8EF1AEB52088CB8200AFA76F /* HomeViewController.swift in Sources */,
+				8EF1AEF92089CE3700AFA76F /* EventsViewCell.swift in Sources */,
+				8EF1AEFB2089D0AC00AFA76F /* EventsDetailViewController.swift in Sources */,
+				8EF1AEF22088E83C00AFA76F /* BaseDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EEC7726207E3F4D00D7F351 /* Main.storyboard */ = {
+		8EF1AE9E2088C23F00AFA76F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EEC7727207E3F4D00D7F351 /* Base */,
+				8EF1AE9F2088C23F00AFA76F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8EEC772B207E3F4D00D7F351 /* LaunchScreen.storyboard */ = {
+		8EF1AEA32088C23F00AFA76F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EEC772C207E3F4D00D7F351 /* Base */,
+				8EF1AEA42088C23F00AFA76F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -241,15 +443,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -292,15 +502,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -326,29 +544,61 @@
 			};
 			name = Release;
 		};
-		8EEC7732207E3F4D00D7F351 /* Debug */ = {
+		8EF1AEA82088C23F00AFA76F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TokyoOlympics/Info.plist;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Olympics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lpz.TokyoOlympics;
+				PRODUCT_BUNDLE_IDENTIFIER = lpz.Olympics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "TokyoOlympics-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "PersistenceLayer/TokyoOlympics-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8EEC7733207E3F4D00D7F351 /* Release */ = {
+		8EF1AEA92088C23F00AFA76F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TokyoOlympics/Info.plist;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Olympics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lpz.TokyoOlympics;
+				PRODUCT_BUNDLE_IDENTIFIER = lpz.Olympics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "TokyoOlympics-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "PersistenceLayer/TokyoOlympics-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -364,11 +614,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EEC7731207E3F4D00D7F351 /* Build configuration list for PBXNativeTarget "TokyoOlympics" */ = {
+		8EF1AEA72088C23F00AFA76F /* Build configuration list for PBXNativeTarget "Olympics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EEC7732207E3F4D00D7F351 /* Debug */,
-				8EEC7733207E3F4D00D7F351 /* Release */,
+				8EF1AEA82088C23F00AFA76F /* Debug */,
+				8EF1AEA92088C23F00AFA76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
