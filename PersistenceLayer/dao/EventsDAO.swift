@@ -193,7 +193,7 @@ public class EventsDAO: BaseDAO {
             let sql = "SELECT EventName, EventIcon,KeyInfo,BasicsInfo,OlympicInfo,EventID FROM Events where EventID =?"
             let cSql = sql.cString(using: String.Encoding.utf8)
             
-            var statement: OpaquePointer? = nil
+            var statement: OpaquePointer? = nil //指针
             
             //预处理过程
             if sqlite3_prepare_v2(db, cSql, -1, &statement, nil) == SQLITE_OK {
@@ -202,7 +202,7 @@ public class EventsDAO: BaseDAO {
                 //执行
                 while sqlite3_step(statement) == SQLITE_ROW {
                     
-                    let events = Events()
+                    let events = Events() //实例化
                     
                     if let strEeventName = getColumnValue(index:0, stmt:statement!) {
                         events.EventName = strEeventName
